@@ -1,8 +1,10 @@
 package com.atguigu.demo.dto;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class TradeUserDTO {
+public class TradeUserDTO implements Serializable {
+    private static final long serialVersionUID = 7310818685387633886L;
     //用户ID
     private Long userId;
     //用户姓名

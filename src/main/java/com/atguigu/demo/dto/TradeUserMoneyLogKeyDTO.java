@@ -1,6 +1,9 @@
 package com.atguigu.demo.dto;
 
-public class TradeUserMoneyLogKeyDTO {
+import java.io.Serializable;
+
+public class TradeUserMoneyLogKeyDTO implements Serializable {
+    private static final long serialVersionUID = 4852134739414203833L;
     //用户id
     private Long userId;
     //订单id

@@ -1,6 +1,9 @@
 package com.atguigu.demo.dto;
 
-public class TradeGoodsNumberLogKeyDTO {
+import java.io.Serializable;
+
+public class TradeGoodsNumberLogKeyDTO implements Serializable {
+    private static final long serialVersionUID = 6813073320141538433L;
     //商品id
     private Long goodsId;
     //订单id

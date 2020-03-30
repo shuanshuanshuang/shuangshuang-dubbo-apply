@@ -1,8 +1,10 @@
 package com.atguigu.demo.dto;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class TradeMqProducerTempDTO {
+public class TradeMqProducerTempDTO implements Serializable {
+    private static final long serialVersionUID = 3910544511303437917L;
     private String id;
 
     private String groupName;

@@ -1,9 +1,11 @@
 package com.atguigu.demo.dto;
 
+import java.io.Serializable;
 import java.math.BigDecimal;
 import java.util.Date;
 
-public class TradeOrderDTO {
+public class TradeOrderDTO implements Serializable {
+    private static final long serialVersionUID = 6430147957205472878L;
     //订单ID
     private Long orderId;
     //用户ID

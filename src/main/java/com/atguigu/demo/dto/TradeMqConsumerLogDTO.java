@@ -1,8 +1,10 @@
 package com.atguigu.demo.dto;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class TradeMqConsumerLogDTO extends TradeMqConsumerLogKeyDTO {
+public class TradeMqConsumerLogDTO extends TradeMqConsumerLogKeyDTO implements Serializable {
+    private static final long serialVersionUID = 7699870464831555271L;
     private String msgId;
 
     private String msgBody;

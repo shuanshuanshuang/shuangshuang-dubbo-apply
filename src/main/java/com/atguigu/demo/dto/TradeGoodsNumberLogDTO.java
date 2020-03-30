@@ -1,8 +1,10 @@
 package com.atguigu.demo.dto;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class TradeGoodsNumberLogDTO extends TradeGoodsNumberLogKeyDTO {
+public class TradeGoodsNumberLogDTO extends TradeGoodsNumberLogKeyDTO implements Serializable {
+    private static final long serialVersionUID = 8210538884820068485L;
     //库存数量
     private Integer goodsNumber;
 

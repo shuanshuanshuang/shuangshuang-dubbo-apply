@@ -1,8 +1,10 @@
 package com.atguigu.demo.dto;
 
+import java.io.Serializable;
 import java.math.BigDecimal;
 
-public class TradePayDTO {
+public class TradePayDTO implements Serializable {
+    private static final long serialVersionUID = -6705851212942637765L;
     //支付编号
     private Long payId;
     //订单编号

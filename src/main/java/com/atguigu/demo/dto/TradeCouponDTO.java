@@ -1,9 +1,11 @@
 package com.atguigu.demo.dto;
 
+import java.io.Serializable;
 import java.math.BigDecimal;
 import java.util.Date;
 
-public class TradeCouponDTO {
+public class TradeCouponDTO implements Serializable {
+    private static final long serialVersionUID = -2155811085050033362L;
     //优惠券ID
     private Long couponId;
     //优惠券金额
